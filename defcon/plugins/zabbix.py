@@ -106,7 +106,7 @@ class Zabbix(base.Plugin):
     @property
     def link(self):
         """Return the link."""
-        return 'https://github.com/iksaif/defcon'
+        return 'https://github.com/boolman/defcon'
 
     def statuses(self):
         """Return the generated statuses."""
