@@ -18,3 +18,5 @@ jinja2
 
 pbr
 jira
+
+py-zabbix
