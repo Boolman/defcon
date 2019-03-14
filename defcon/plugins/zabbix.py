@@ -14,7 +14,9 @@ class Zabbix(base.Plugin):
     Config:
     ```python
     {
-      'api': 'https://zabbix:9090', // Url to root API.
+      'api': 'https://zabbix', // Url to root API.
+      'username': 'user', // zabbix api username
+      'password': 'pass1', // zabbix password
       'proxy': 'zab-proxy-001', // Hosts monitored by this proxy
       'defcon': int, // override on trigger. add tags, defcon: int
       'hostgroups': [ 'group1' ], // array of group names (str)
